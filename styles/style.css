@@ -49,6 +49,10 @@ input[type="checkbox"]:focus {
     text-decoration: none;
 }
 
+.navbar-toggler {
+    display: none; /* Esconder por padrão */
+}
+
 .apresentacao {
     padding: 5% 15%;
     display: flex;
@@ -188,5 +192,51 @@ strong {
 
     .apresentacao__conteudo {
         width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white; /* ou a cor desejada */
+        position: absolute;
+        width: 100%;
+        top: 60px; /* ajuste conforme necessário */
+        left: 0;
+        z-index: 1000;
+        padding: 10px;
+        display: none; /* escondido por padrão */
+    }
+
+    .cabecalho__menu.active {
+        display: flex; /* mostra quando ativo */
+    }
+
+    .navbar-toggler {
+        display: block;
+        cursor: pointer;
+    }
+
+    .cabecalho__menu__link {
+        padding: 10px 15px;
+    }
+
+    [data-bs-theme="dark"] {
+        color: white;
+    
+        .cabecalho__menu,
+        .card-body,
+        .offcanvas,
+        .accordion,
+        .btn {
+            --bs-nav-link-color: white;
+            --bs-card-color: white;
+            --bs-offcanvas-color: white;
+            --bs-accordion-color: white;
+            --bs-btn-color: white;
+        }
+    
     }
 }

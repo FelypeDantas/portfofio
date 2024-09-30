@@ -12,3 +12,8 @@ inputCheck.addEventListener('click', () => {
     elemento.setAttribute("data-bs-theme", modo);
     localStorage.setItem('night-mode', inputCheck.checked); 
 });
+
+document.querySelector('.navbar-toggler').addEventListener('click', function() {
+    const menu = document.querySelector('.cabecalho__menu');
+    menu.classList.toggle('active');
+});
