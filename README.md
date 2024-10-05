@@ -1,6 +1,36 @@
-## Portfólio
+# Meu Portfólio
 
-<p> Portfólio simples criado com HTML e CSS, estático e com a listagem de certos projetos autorais</p>
+Bem-vindo ao meu portfólio! Aqui você encontrará uma coleção de meus projetos e trabalhos mais recentes, mostrando minhas habilidades e experiências como desenvolvedor(a).
+
+## Índice
+
+- [Sobre Mim](#sobre-mim)
+- [Tecnologias](#tecnologias)
+- [Como Navegar](#como-navegar)
+- [Contato](#contato)
+
+## Sobre Mim
+
+Sou um(a) desenvolvedor(a) apaixonado(a) por criar soluções inovadoras e funcionais. Com experiência como Estagiário de TI, estou sempre em busca de novos desafios e oportunidades para aprender e crescer.
+
+## Tecnologias
+
+- HTML, CSS, JavaScript
+- Svelte, Node.js
+- Git, GitHub
+
+## Como Navegar
+
+Você pode explorar meu portfólio acessando o link: [seu-link-aqui](https://portfofio-chi.vercel.app/). Sinta-se à vontade para navegar pelos projetos e conhecer mais sobre minhas habilidades.
+
+## Contato
+
+Estou sempre aberto(a) a colaborações e novas oportunidades! Você pode me contatar através do e-mail: [felyped03@gmail.com].
+
+---
+
+Obrigado por visitar meu portfólio! Estou ansioso(a) para conectar e colaborar.
+
 
 ## Autor
 <div align="center">
